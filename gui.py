@@ -45,7 +45,6 @@ class Application:
         my_canvas.create_window((0, 0), window=container, anchor="nw")
 
         # LabelFrame 表單控件容器
-
         thm_form_frame = ttk.LabelFrame(container, text="THM表單")
         thm_form_frame.pack(padx=5, pady=5)
         thm_basic_frame = ttk.Frame(thm_form_frame)
